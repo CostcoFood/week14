@@ -61,7 +61,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>CRUD App with MockAPI</h1>
+      <h1>Week 14</h1>
       <AddResourceForm onCreate={handleCreate} />
       {editingResource && (
         <UpdateResourceForm resource={editingResource} onUpdate={handleUpdate} />
